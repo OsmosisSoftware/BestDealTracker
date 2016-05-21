@@ -1,4 +1,7 @@
 # BestDealTracker
+
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
 **BDT**(BestDealTracker) es una aplicación aplicación web que hace seguimientos artículos de diferentes webs de ventas (Amazon, Pccomponentes)
 Los usuarios registrados podrán hacer seguimiento directo sobre cualquier artículo de las páginas soportadas...
 
