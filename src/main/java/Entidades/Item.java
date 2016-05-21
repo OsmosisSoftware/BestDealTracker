@@ -66,10 +66,8 @@ public class Item {
   public void setLink(String link) {
     String urlPattern = "^http(s?)://[a-zA-Z0-9_/\\-\\.]+\\.([A-Za-z/]{2,5})[a-zA-Z0-9_/\\&\\?\\=\\-\\.\\~\\%]*";
 
-    if(
-      !link.matches(urlPattern) ||
-      link.equals("")
-      ) throw new IllegalArgumentException("Eso no es una URL payasín");
+    if(!link.matches(urlPattern)) throw new IllegalArgumentException("Eso no es una URL payasín");
+
     this.link = link;
   }
 
