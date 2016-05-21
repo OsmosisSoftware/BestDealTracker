@@ -6,15 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class GreetingController {
+public class OtroController {
 
-  @RequestMapping("/greeting")
-  public String greeting(
-    @RequestParam(value="name", required=false, defaultValue="VAMOOSSS") String name,
+  @RequestMapping("/otro")
+  public String otro(
+    @RequestParam(value="name", required=false, defaultValue="Otro value pol dios") String name,
     Model model
   ) {
     model.addAttribute("name", name);
-    return "greeting";
+    return "otro";
   }
-
 }
