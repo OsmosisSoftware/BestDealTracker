@@ -1,0 +1,20 @@
+{
+  "name": "bdt-polymer",
+  "homepage": "https://github.com/OsmosisSoftware/BestDealTracker",
+  "authors": [
+    "Yago <y_rodrigez@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}

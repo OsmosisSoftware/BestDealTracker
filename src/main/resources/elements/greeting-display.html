@@ -1,0 +1,21 @@
+<link rel="import" href="../js/bower_components/polymer/polymer.html" />
+
+<polymer-element name="greeting-display">
+    <template>
+        <div>
+            <h1>Saludos desarrollador de BDT</h1>
+            <p>este es el id: {{ greeting.id }} </p>
+            <p>el contenido es: {{ greeting.content }}</p>
+        </div>
+    </template>
+    <script>
+        Polymer({
+            created: function () {
+                this.greeting = {
+                    id: "123",
+                    content: "default"
+                };
+            }
+        });
+    </script>
+</polymer-element>
