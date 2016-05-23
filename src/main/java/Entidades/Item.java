@@ -2,11 +2,11 @@ package Entidades;
 
 
 public class Item {
-  private long id;
+  protected long id;
   private boolean isIdSet;
-  private double precio;
-  private String nombre;
-  private String link;
+  protected double precio;
+  protected String nombre;
+  protected String link;
 
   public Item(){
     this.id = 0;
