@@ -1,6 +1,5 @@
 package Entidades;
 
-import java.util.regex.Pattern;
 
 public class Item {
   private long id;

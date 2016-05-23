@@ -1,0 +1,26 @@
+{
+  "name": "BestDealTracker",
+  "homepage": "https://github.com/OsmosisSoftware/BestDealTracker",
+  "authors": [
+    "yago <y_rodrigez@hotmail.com>"
+  ],
+  "description": "Webb application for scrap",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "iron-elements": "polymerelements/iron-elements#^1.0.10",
+    "paper-elements": "polymerelements/paper-elements#^1.0.7",
+    "neon-elements": "polymerelements/neon-elements#^1.0.0",
+    "app-elements": "polymerelements/app-elements#^0.9.0",
+    "gold-elements": "polymerelements/gold-elements#^1.0.1",
+    "platinum-elements": "polymerelements/platinum-elements#^2.0.0"
+  }
+}
