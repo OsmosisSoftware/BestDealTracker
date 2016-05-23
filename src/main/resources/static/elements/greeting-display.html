@@ -1,6 +1,6 @@
 <link rel="import" href="../js/bower_components/polymer/polymer.html" />
 
-<polymer-element name="greeting-display">
+<dom-module id="greeting-display">
     <template>
         <div>
             <h1>Saludos desarrollador de BDT</h1>
@@ -10,7 +10,8 @@
     </template>
     <script>
         Polymer({
-            created: function () {
+            is: "greeting-display",
+            ready: function () {
                 this.greeting = {
                     id: "123",
                     content: "default"
@@ -18,4 +19,4 @@
             }
         });
     </script>
-</polymer-element>
+</dom-module>
