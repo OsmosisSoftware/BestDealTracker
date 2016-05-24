@@ -1,7 +1,7 @@
 package Entidades;
 
 
-public class Item {
+public abstract class Item {
   protected long id;
   private boolean isIdSet;
   protected double precio;
