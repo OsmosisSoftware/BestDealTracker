@@ -41,7 +41,7 @@ public class AmazonScraper {
               .userAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21")
               .get();
             doc = Jsoup.connect(doc.select("#result_0 a[class=a-link-normal a-text-normal]").first().attr("href"))
-              .userAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21")
+              //.userAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21")
               .get();
         } catch (IOException e) {
             System.err.println("Error en getAmazonDOMByAmazonId" + validAmazonId);
