@@ -2,7 +2,9 @@ package Entidades;
 
 
 public abstract class Item {
+
   protected long id;
+
   private boolean isIdSet;
   protected double precio;
   protected String nombre;
