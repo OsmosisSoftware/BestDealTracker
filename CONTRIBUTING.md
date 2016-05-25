@@ -7,3 +7,8 @@
   * `cd /usr/bin`.
   * `ln -s /usr/bin/nodejs node`.
 3. Es necesario tener Maven insalado con `sudo apt-get install maven` valdría.
+4. Instalar el JDK 1.8
+ * `sudo add-apt-repository ppa:webupd8team/java`
+ * `sudo apt-get update`
+ * `sudo apt-get install oracle-java8-installer`
+5. Para ejecutar el servidor es recomendable hacer un clean para que siempre se refresquen las páginas html al montar el servidor, el comando sería `mvn clean spring-boot:run`
