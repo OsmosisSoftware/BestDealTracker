@@ -7,7 +7,13 @@ Los usuarios registrados podrán hacer seguimiento directo sobre cualquier artí
 
 | Compañías     | Soportada     |
 | --- | --- |
-| [Amazon]("www.amazon.com") | Development |
-| [PcComponentes]("www.pccomponentes.com") | Development |
+| [Amazon]("www.amazon.com") | Desarrollando |
+| [PcComponentes]("www.pccomponentes.com") | Desarrollando |
+| [eBay]("www.ebay.es") | NO |
+| [Aliexpress]("www.aliexpress.com") | NO |
+| [Zalando]("www.zalando.es") | NO |
+| [SportsDirect]("www.SportsDirect.com") | NO |
+| [Zapals]("www.zapals.com") | NO |
+| [Zara]("www.zara.com") | NO |
 
 ### Desarrollado con:![](https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png)![](http://7lrxvd.com1.z0.glb.clouddn.com/jsoup-intro-1024x341.jpg)![](http://carlosortiz.co.uk/wp-content/uploads/2015/09/polymer-logo.jpg)![](http://cocoamental.com/wp-content/uploads/2015/12/angularjs.png)
