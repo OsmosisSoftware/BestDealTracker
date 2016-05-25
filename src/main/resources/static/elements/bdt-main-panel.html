@@ -12,8 +12,8 @@
 <link rel="import" href="../js/bower_components/paper-styles/paper-styles.html" />
 <link rel="import" href="../js/bower_components/paper-styles/paper-styles-classes.html" />
 <link rel="import" href="../js/bower_components/paper-button/paper-button.html" />
-
 <link rel="import" href="../js/bower_components/iron-icon/iron-icon.html"/>
+
 
 <dom-module id="bdt-main-panel">
     <template>
@@ -31,15 +31,24 @@
             div.options paper-button{
                 color: var(--paper-indigo-50);
             }
+            video{
+                background-position: center;
+                background-size: cover;
+                width: auto;
+                height: auto;
+                min-width: 100%;
+                min-height: 100%;
+                position: absolute;
+            }
         </style>
-        <paper-drawer-panel>
+        <paper-drawer-panel force-narrow>
             <paper-header-panel drawer>
                 <paper-toolbar class="options" >
                     <div class="title">Options</div>
                 </paper-toolbar>
                 <div class="options">
-                    <paper-button>Mi cuenta <iron-icon icon="account-circle"></iron-icon></paper-button>
-                    <paper-button>Seguir un producto <iron-icon icon="add-alert"></iron-icon></paper-button>
+                    <paper-button noink>Mi cuenta <iron-icon icon="account-circle"></iron-icon></paper-button>
+                    <paper-button noink>Seguir un producto <iron-icon icon="add-alert"></iron-icon></paper-button>
                 </div>
             </paper-header-panel>
             <paper-header-panel main>
@@ -49,18 +58,9 @@
                     <paper-icon-button icon="refresh"></paper-icon-button>
                 </paper-toolbar>
                 <div>
-                    <h1>BDT is:</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu eros vitae urna porttitor ornare id sagittis tellus. Fusce ac nibh sed metus tempor aliquam vel at sem. Cras tellus ligula, mattis quis ex eget, varius pulvinar tellus. Duis volutpat nisi a orci auctor euismod. Maecenas laoreet diam eget risus sagittis, vitae interdum nunc luctus. Pellentesque id egestas nisl. Pellentesque egestas, enim ut interdum aliquet, metus ipsum accumsan tortor, at vehicula eros justo vitae quam. Donec purus metus, vulputate eu nibh non, commodo convallis dui. Suspendisse elit lectus, mattis sed lectus congue, viverra placerat ante. Aliquam velit arcu, interdum non malesuada ut, vestibulum non nisl. Nam vel sapien quis purus venenatis egestas vel aliquam sapien. Nulla dictum lorem eget rhoncus rhoncus. Nunc eget dui ac enim venenatis semper nec in sapien.
-
-                    In facilisis finibus feugiat. Sed pellentesque pulvinar sapien sit amet euismod. Quisque mollis et tellus ac tempus. Vivamus nulla diam, ultricies a leo eu, consectetur egestas tortor. Donec lacinia sollicitudin ullamcorper. Nulla magna orci, pretium vel ultrices volutpat, venenatis eu dui. Curabitur condimentum venenatis lorem, et gravida nisi egestas vitae. Phasellus aliquam gravida volutpat. Donec ac lacus ultrices, auctor velit a, viverra tellus. Integer sollicitudin nibh elementum ornare malesuada. Praesent sollicitudin pellentesque sem at accumsan. Donec et consectetur ex. Cras posuere felis est, vel malesuada leo varius quis. Vivamus nec sapien sed odio euismod accumsan. Aenean non interdum orci, vel hendrerit purus. Etiam blandit cursus magna.
-
-                    Aenean viverra quis nisl vel pulvinar. Maecenas non sem vitae elit eleifend hendrerit eu id est. Ut vulputate nibh lacus, sed blandit dui congue at. Cras cursus at enim eu tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla vel rutrum ex. Nulla facilisi. Duis interdum urna id ligula commodo, vel semper enim ultrices. Nulla vestibulum venenatis ex, tincidunt euismod lorem pellentesque eu. Nunc placerat mauris quis purus ullamcorper, eu dapibus nibh rutrum.
-
-                    Praesent dictum leo eu justo tempus, quis scelerisque ligula pharetra. Suspendisse eleifend at eros quis fringilla. Sed vitae ornare libero, sollicitudin luctus tellus. Duis ac neque bibendum lectus congue pharetra id eu turpis. Cras facilisis lobortis molestie. Suspendisse egestas ullamcorper maximus. Etiam mattis, turpis in rutrum viverra, ipsum est vulputate diam, vel vestibulum quam magna ac sapien. Morbi at purus volutpat, ornare quam nec, rutrum diam.
-
-                    Sed in ullamcorper est. Etiam dui ipsum, placerat tincidunt consectetur sed, dictum eget dui. Nulla quis mauris congue, iaculis urna eu, interdum dolor. Quisque felis est, sodales sed nisi at, venenatis placerat tortor. Etiam a dignissim neque. Integer nec metus a augue lobortis feugiat vitae sit amet nisl. Praesent vitae sodales lorem. Duis hendrerit maximus maximus. Nulla semper lectus at purus pulvinar fermentum.
-                </p>
+                    <video autoplay loop>
+                        <source src="../video/ink.webm" type="video/webm">
+                    </video>
                 </div>
             </paper-header-panel>
         </paper-drawer-panel>
