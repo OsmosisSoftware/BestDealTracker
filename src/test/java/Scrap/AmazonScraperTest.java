@@ -37,7 +37,7 @@ public class AmazonScraperTest {
 
     @Test
     public void testGetGPAmazonId() {
-        final String validAmazonURL = "http://www.amazon.com/gp/product/B00I15SB16/ref=s9_acss_bw_cg_odsbnc_1a1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-2&pf_rd_r=14Q281S149KPYPSP32J8&pf_rd_t=101&pf_rd_p=7526d413-a8f2-4d30-a218-03113e9802f6&pf_rd_i=6669702011";
+        final String validAmazonURL = "http://www.amazon.com/gp/product/B00I15SB16";
         final String validAmazonID = "B00I15SB16";
         AmazonScraper as = new AmazonScraper();
 
@@ -71,13 +71,12 @@ public class AmazonScraperTest {
         expected.setLink("https://www.amazon.es/Wenger-Carbon-GA-7357-02F00-Mochila-port%C3%A1til/dp/B001LA57ZQ");
         expected.setAmazonItemId("B001LA57ZQ");
         expected.setNombre("Wenger Carbon GA-7357-02F00 - Mochila para portátil de 17\", Negro");
-        expected.setPrecio(79.66);
+        expected.setPrecio(83.66);
 
         AmazonScraper as = new AmazonScraper();
         Document doc = as.getAmazonDOMByAmazonId("B001LA57ZQ");
         AmazonItem result = as.createAmazonItem(doc);
 
         assertEquals(expected, result);
-
     }
 }
