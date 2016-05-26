@@ -63,7 +63,7 @@ public class PcComponentesItemTest {
     @Test
     public void testValidUrl(){
         String urlToGrande = "https://www.amazon.es/Wenger-Carbon-GA-7357-02F00-Mochila-port%C3%A1til/dp/B001LA57ZQ/ref=pd_sim_147_5?ie=UTF8&dpID=51EHcM5gNEL&dpSrc=sims&preST=_AC_UL160_SR123%2C160_&refRID=KC38RGFYDPF48THBW6YF";
-        AmazonItem amazonItem = new AmazonItem(0, 0.0, "foo name", urlToGrande, "BbB8756ABC");
+        PcComponentesItem amazonItem = new PcComponentesItem(0, 0.0, "foo name", urlToGrande, "BbB8756ABC");
 
         assertEquals(urlToGrande, amazonItem.getUrl());
     }

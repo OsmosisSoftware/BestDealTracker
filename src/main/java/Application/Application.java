@@ -1,3 +1,4 @@
+// tag::runner[]
 package Application;
 
 import Entities.AmazonItem;
@@ -8,18 +9,43 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication
-@ComponentScan("Entities Repositoriesk")
+import java.util.Arrays;
+
+/**
+ * No sé por qué pero no sirve
+ * Tutorial: https://spring.io/guides/tutorials/bookmarks/
+ */
+
+@Configuration
+@ComponentScan("Entities")
 @EnableAutoConfiguration
 public class Application {
 
+  @Bean
+  CommandLineRunner init(
+    AmazonItemRepository amazonItemRepository
+  ) {
+      return (evt) -> {
+        Arrays.asList(
+          "item1,ittem2,item3,item4,item5".split(",")
+        ).forEach(
+          a -> {
+            AmazonItem item = new AmazonItem(22.5, a, "www"+a+".com", "ABDCE");
+            amazonItemRepository.save(item);
+          }
+        );
+      };
+  }
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
   }
 
 }
+// end::runer[]
 
 @Component
 class AmazonItemCommandLineRunner implements CommandLineRunner {

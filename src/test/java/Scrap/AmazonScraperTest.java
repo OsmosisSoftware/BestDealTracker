@@ -67,7 +67,6 @@ public class AmazonScraperTest {
     @Ignore ("El precio cambia constantemente")
     public void testCreateAmazonItem (){
         AmazonItem expected = new AmazonItem();
-        expected.setId(0);
         expected.setLink("https://www.amazon.es/Wenger-Carbon-GA-7357-02F00-Mochila-port%C3%A1til/dp/B001LA57ZQ");
         expected.setAmazonItemId("B001LA57ZQ");
         expected.setNombre("Wenger Carbon GA-7357-02F00 - Mochila para portátil de 17\", Negro");

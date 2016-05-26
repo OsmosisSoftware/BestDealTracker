@@ -71,7 +71,6 @@ public class AmazonScraper {
         ret.setAmazonItemId(amazonId);
         ret.setLink(link);
         ret.setNombre(nombre);
-        ret.setId(0);
 
         return ret;
     }

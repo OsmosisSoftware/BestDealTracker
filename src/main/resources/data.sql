@@ -1,4 +1,4 @@
-INSERT INTO amazonitem(
+/*INSERT INTO amazonitem(
   amazonitem.nombre,
   amazonitem.precio,
   amazonitem.link,
@@ -10,3 +10,4 @@ INSERT INTO amazonitem(
   amazonitem.link,
   amazonitem.amazonitemid
 ) VALUES ('3', 22.5, 'www.algo.com', 'abdefghij');
+*/
