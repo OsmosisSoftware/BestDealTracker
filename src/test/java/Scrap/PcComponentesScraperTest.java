@@ -1,6 +1,6 @@
 package Scrap;
 
-import Entidades.PcComponentesItem;
+import Entities.PcComponentesItem;
 import org.junit.Ignore;
 import org.junit.Test;
 

@@ -14,33 +14,47 @@
 <link rel="import" href="../js/bower_components/paper-button/paper-button.html" />
 <link rel="import" href="../js/bower_components/iron-icon/iron-icon.html"/>
 
-
 <dom-module id="bdt-main-panel">
     <template>
         <style is="custom-style">
+            :host {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
             paper-toolbar.main{
                 background-color: var(--paper-purple-900);
             }
+
             paper-toolbar.options{
                 background-color: var(--paper-purple-800);
             }
+
             div.options{
                 text-align: center;
                 background-color: var(--paper-deep-orange-300);
             }
+
             div.options paper-button{
                 color: var(--paper-indigo-50);
             }
+
             video{
                 background-position: center;
                 background-size: cover;
-                width: auto;
-                height: auto;
-                min-width: 100%;
-                min-height: 100%;
                 position: absolute;
+                min-height: 100%;
+                min-width: 100%;
             }
+            div.logo{
+                position: relative;
+            }
+            div.logo h1{
+                color: var(--paper-amber-500);
+            }
+
         </style>
+
         <paper-drawer-panel force-narrow>
             <paper-header-panel drawer>
                 <paper-toolbar class="options" >
@@ -61,6 +75,9 @@
                     <video autoplay loop>
                         <source src="../video/ink.webm" type="video/webm">
                     </video>
+                    <div class ="logo">
+                        BestDealTracker
+                    </div>
                 </div>
             </paper-header-panel>
         </paper-drawer-panel>

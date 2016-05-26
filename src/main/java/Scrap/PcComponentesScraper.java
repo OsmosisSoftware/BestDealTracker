@@ -1,6 +1,6 @@
 package Scrap;
 
-import Entidades.PcComponentesItem;
+import Entities.PcComponentesItem;
 import org.jsoup.*;
 import org.jsoup.nodes.Document;
 
