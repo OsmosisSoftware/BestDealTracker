@@ -16,4 +16,9 @@ Los usuarios registrados podrán hacer seguimiento directo sobre cualquier artí
 | [Zapals]("www.zapals.com") | NO |
 | [Zara]("www.zara.com") | NO |
 
-### Desarrollado con:![](https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png)![](http://7lrxvd.com1.z0.glb.clouddn.com/jsoup-intro-1024x341.jpg)![](http://carlosortiz.co.uk/wp-content/uploads/2015/09/polymer-logo.jpg)![](http://cocoamental.com/wp-content/uploads/2015/12/angularjs.png)
+### Desarrollado con:
+![](https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png)
+![](http://7lrxvd.com1.z0.glb.clouddn.com/jsoup-intro-1024x341.jpg)
+![](http://khashabawy.com/blog/wp-content/uploads/2014/12/WebComponentsPolymer.png)
+![](https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png)
+![](http://cocoamental.com/wp-content/uploads/2015/12/angularjs.png)
