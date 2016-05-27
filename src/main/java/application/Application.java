@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"controller","repositories","entities"})
-@EnableMongoRepositories("repository")
+@EnableMongoRepositories(basePackages = {"repository"})
 @EnableAutoConfiguration
 @Configuration
 public class Application {

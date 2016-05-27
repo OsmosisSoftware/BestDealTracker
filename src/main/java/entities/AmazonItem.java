@@ -1,12 +1,10 @@
 package entities;
 
-import javax.annotation.Generated;
-import javax.persistence.Entity;
+import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.GeneratedValue;
-
 import javax.persistence.Id;
 
-@Entity
+@Document
 public class AmazonItem {
 
     @Id
