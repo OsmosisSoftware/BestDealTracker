@@ -1,6 +1,6 @@
-package Scrap;
+package scrap;
 
-import Entities.PcComponentesItem;
+import entities.PcComponentesItem;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -46,7 +46,6 @@ public class PcComponentesScraperTest {
     public void createPcComponentesItemTest() {
         PcComponentesItem result = PcComponentesScraper.createPcComponenetesItem("100191");
         PcComponentesItem expected = new PcComponentesItem(
-                0,
                 159,
                 "WD My Cloud EX2 Ultra NAS - Disco/Carcasa NAS Opiniones WD My Cloud EX2 Ultra NAS",
                 "https://www.pccomponentes.com/100191.html",

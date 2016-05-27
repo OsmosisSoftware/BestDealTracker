@@ -1,6 +1,6 @@
-package Scrap;
+package scrap;
 
-import Entities.PcComponentesItem;
+import entities.PcComponentesItem;
 import org.jsoup.*;
 import org.jsoup.nodes.Document;
 
@@ -53,7 +53,6 @@ public class PcComponentesScraper {
 
             final String link = doc.baseUri();
 
-            ret.setId(0);
             ret.setNombre(nombre);
             ret.setPrecio(precio);
             ret.setLink(link);

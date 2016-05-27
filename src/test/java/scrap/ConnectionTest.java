@@ -1,4 +1,4 @@
-package Scrap;
+package scrap;
 
 import org.jsoup.nodes.Document;
 import org.junit.Test;

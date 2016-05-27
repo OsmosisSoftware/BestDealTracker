@@ -1,6 +1,6 @@
-package Scrap;
+package scrap;
 
-import Entities.AmazonItem;
+import entities.AmazonItem;
 import org.jsoup.nodes.Document;
 import org.junit.Ignore;
 import org.junit.Test;

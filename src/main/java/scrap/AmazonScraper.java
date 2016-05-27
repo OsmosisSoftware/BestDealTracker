@@ -1,7 +1,7 @@
-package Scrap;
+package scrap;
 
 
-import Entities.AmazonItem;
+import entities.AmazonItem;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
