@@ -1,10 +1,15 @@
 package entities;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.persistence.GeneratedValue;
+
+@Document
 public class PcComponentesItem {
 
     @Id
+    @GeneratedValue
     private String id;
 
     private boolean isIdSet;
