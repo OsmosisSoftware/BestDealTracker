@@ -2,18 +2,28 @@ package controller;
 
 import entities.AmazonItem;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import repositories.AmazonItemRepository;
+
+import java.util.List;
+
 
 @RestController
+@ComponentScan(basePackages = {"controller","repositories","entities"})
 public class AmazonItemRestController {
 
-    //private AmazonItemRepository amazonItemRepository;
+    private AmazonItemRepository repository;
 
     @RequestMapping("/amazonitems")
-    AmazonItem amazonItems() {
-        return new AmazonItem(220.5, "Mochila", "http://www.amazon.com/algo", "ABCSDEQW");
+    public List<AmazonItem> getAmazonItems(){
+        this.repository.deleteAll();
+        this.repository.save(new AmazonItem(220.5, "Mochila", "http://www.amazon.com/algo", "ABCSDEQW"));
+        this.repository.save(new AmazonItem(20.5, "chila", "http://www.amazon.com/algo2", "abc123abc4"));
+        return this.repository.findAll();
     }
-
 
 }
