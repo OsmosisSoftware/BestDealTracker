@@ -1,6 +1,6 @@
-package controller;
+package org.osmosis.rest;
 
-import entities.AmazonItem;
+import org.osmosis.entities.AmazonItem;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -9,14 +9,14 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import repositories.AmazonItemRepository;
+import org.osmosis.repositories.AmazonItemRepository;
 
 import java.util.List;
 
 
 @RestController
-@ComponentScan(basePackages = {"controller","repositories","entities"})
-@EnableMongoRepositories(basePackages = {"repositories"})
+@ComponentScan(basePackages = {"org.osmosis.rest", "org.osmosis.repositories", "org.osmosis.entities"})
+@EnableMongoRepositories(basePackages = {"org.osmosis.repositories"})
 @RequestMapping("/amazonitems")
 public class AmazonItemRestController {
 

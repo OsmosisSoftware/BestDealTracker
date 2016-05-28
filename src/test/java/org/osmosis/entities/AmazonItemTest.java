@@ -1,4 +1,4 @@
-package entities;
+package org.osmosis.entities;
 
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
-package repositories;
+package org.osmosis.repositories;
 
 
-import entities.AmazonItem;
+import org.osmosis.entities.AmazonItem;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 

@@ -9,7 +9,7 @@ Prism.languages.inform7 = {
 						pattern:/\[|\]/,
 						alias: 'punctuation'
 					}
-					// See rest below
+					// See org.osmosis.rest below
 				}
 			}
 		}

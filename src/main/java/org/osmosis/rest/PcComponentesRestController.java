@@ -1,20 +1,19 @@
-package controller;
+package org.osmosis.rest;
 
-import entities.AmazonItem;
-import entities.PcComponentesItem;
+import org.osmosis.entities.PcComponentesItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import repositories.PcComponentesItemRepository;
+import org.osmosis.repositories.PcComponentesItemRepository;
 
 import java.util.Collection;
 
 @RestController
-@ComponentScan(basePackages = {"controller","repositories","entities"})
-@EnableMongoRepositories(basePackages = {"repositories"})
+@ComponentScan(basePackages = {"org.osmosis.rest", "org.osmosis.repositories", "org.osmosis.entities"})
+@EnableMongoRepositories(basePackages = {"org.osmosis.repositories"})
 @RequestMapping("/pccomponentesitems")
 public class PcComponentesRestController {
 

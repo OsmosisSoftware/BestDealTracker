@@ -16,7 +16,7 @@ thing! https://github.com/PolymerLabs/tedium/issues
 ##Polymer.AppLocalizeBehavior
 
 `Polymer.AppLocalizeBehavior` wraps the [format.js](http://formatjs.io/) library to
-help you internationalize your application. Note that if you're on a browser that
+help you internationalize your org.osmosis.application. Note that if you're on a browser that
 does not natively support the [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
 object, you must load the polyfill yourself. An example polyfill can
 be found [here](https://github.com/andyearnshaw/Intl.js/).
@@ -25,7 +25,7 @@ be found [here](https://github.com/andyearnshaw/Intl.js/).
 of format.js, in its entirety; use the library docs as reference for the
 available message formats and options.
 
-Sample application loading resources from an external file:
+Sample org.osmosis.application loading resources from an external file:
     <dom-module id="x-app">
        <template>
         <div>{{localize('hello', 'Batman')}}</div>

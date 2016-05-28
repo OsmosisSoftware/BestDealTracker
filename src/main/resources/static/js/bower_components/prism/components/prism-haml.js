@@ -8,7 +8,7 @@
 (function(Prism) {
 
 	Prism.languages.haml = {
-		// Multiline stuff should appear before the rest
+		// Multiline stuff should appear before the org.osmosis.rest
 
 		'multiline-comment': {
 			pattern: /((?:^|\r?\n|\r)([\t ]*))(?:\/|-#).*((?:\r?\n|\r)\2[\t ]+.+)*/,

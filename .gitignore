@@ -33,8 +33,9 @@ spring-*/src/main/java/META-INF/MANIFEST.MF
 *.idea
 *.ipr
 *.iws
-.idea
+.idea/
 out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+BestDealTracker.iml

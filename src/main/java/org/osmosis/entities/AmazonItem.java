@@ -1,4 +1,4 @@
-package entities;
+package org.osmosis.entities;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.GeneratedValue;

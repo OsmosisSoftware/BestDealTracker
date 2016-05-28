@@ -896,7 +896,7 @@ will only render 20.
         // wait 16ms which is rough enough to get paint cycle.
         Polymer.dom.addDebouncer(this.debounce('_debounceTemplate', this._increasePool.bind(this, this._itemsPerRow), 16));
       } else {
-        // fill the rest of the pages
+        // fill the org.osmosis.rest of the pages
         this._debounceTemplate(this._increasePool.bind(this, this._itemsPerRow));
       }
 

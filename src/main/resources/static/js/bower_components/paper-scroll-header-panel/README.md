@@ -23,7 +23,7 @@ Material design: [Scrolling techniques](https://www.google.com/design/spec/patte
 
 `paper-scroll-header-panel` contains a header section and a content section.  The
 header is initially on the top part of the view but it scrolls away with the
-rest of the scrollable content.  Upon scrolling slightly up at any point, the
+org.osmosis.rest of the scrollable content.  Upon scrolling slightly up at any point, the
 header scrolls back into view.  This saves screen space and allows users to
 access important controls by easily moving them back to the view.
 

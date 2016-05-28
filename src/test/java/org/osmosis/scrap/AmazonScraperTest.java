@@ -1,6 +1,6 @@
-package scrap;
+package org.osmosis.scrap;
 
-import entities.AmazonItem;
+import org.osmosis.entities.AmazonItem;
 import org.jsoup.nodes.Document;
 import org.junit.Ignore;
 import org.junit.Test;

@@ -16,11 +16,11 @@ thing! https://github.com/PolymerLabs/tedium/issues
 ##&lt;app-indexeddb-mirror&gt;
 
 `app-indexeddb-mirror` is a purpose-built element to easily add read-only
-offline access of application data that is typically only available when the
+offline access of org.osmosis.application data that is typically only available when the
 user is connected to the network.
 
 When an app using this element is connected to the network, the element acts as
-a pass-through for live application data. Data is bound into the `data`
+a pass-through for live org.osmosis.application data. Data is bound into the `data`
 property, and consumers of the data can bind to the correlated `persistedData`
 property. As live data changes, `app-indexeddb-mirror` caches a copy of the live
 data in a local IndexedDB database. When the app is no longer connected to the

@@ -1,4 +1,4 @@
-package application;
+package org.osmosis.application;
 
 
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"controller","repositories","entities"})
+@ComponentScan(basePackages = {"org.osmosis.rest", "org.osmosis.repositories", "org.osmosis.entities"})
 @EnableMongoRepositories(basePackages = {"repository"})
 @EnableAutoConfiguration
 @Configuration

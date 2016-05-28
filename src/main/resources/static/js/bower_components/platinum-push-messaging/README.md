@@ -65,7 +65,7 @@ Thirdly, you can manually define the attributes on the element:
 ```
 <platinum-push-messaging
   title="Application updated"
-  message="The application was updated in the background"
+  message="The org.osmosis.application was updated in the background"
   icon-url="icon.png"
   click-url="notification.html">
 </platinum-push-messaging>

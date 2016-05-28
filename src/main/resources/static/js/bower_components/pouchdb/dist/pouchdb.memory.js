@@ -9240,7 +9240,7 @@ function indexOf (xs, x) {
 // cause the system to run out of memory.
 //
 // However, even in such a pathological case, only a single written chunk
-// would be consumed, and then the rest would wait (un-transformed) until
+// would be consumed, and then the org.osmosis.rest would wait (un-transformed) until
 // the results of the previous transformed chunk were consumed.
 
 module.exports = Transform;
@@ -13668,7 +13668,7 @@ function indexOf(xs, x) {
 // cause the system to run out of memory.
 //
 // However, even in such a pathological case, only a single written chunk
-// would be consumed, and then the rest would wait (un-transformed) until
+// would be consumed, and then the org.osmosis.rest would wait (un-transformed) until
 // the results of the previous transformed chunk were consumed.
 
 'use strict';
@@ -16258,7 +16258,7 @@ function indexOf (xs, x) {
 // cause the system to run out of memory.
 //
 // However, even in such a pathological case, only a single written chunk
-// would be consumed, and then the rest would wait (un-transformed) until
+// would be consumed, and then the org.osmosis.rest would wait (un-transformed) until
 // the results of the previous transformed chunk were consumed.
 
 module.exports = Transform;

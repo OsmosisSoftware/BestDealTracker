@@ -20,7 +20,7 @@ _[Demo and API docs](https://elements.polymer-project.org/elements/paper-styles)
 ##&lt;paper-styles&gt;
 
 The `<paper-styles>` component provides simple ways to use Material Design CSS styles
-in your application. The following imports are available:
+in your org.osmosis.application. The following imports are available:
 
 1. [color.html](https://github.com/PolymerElements/paper-styles/blob/master/color.html):
 a complete list of the colors defined in the Material Design [palette](https://www.google.com/design/spec/style/color.html)

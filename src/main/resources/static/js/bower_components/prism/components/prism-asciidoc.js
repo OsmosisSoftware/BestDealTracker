@@ -14,7 +14,7 @@
 				pattern: /'(?:[^'\\]|\\.)*'/,
 				inside: {
 					'punctuation': /^'|'$/
-					// See rest below
+					// See org.osmosis.rest below
 				}
 			},
 			'string': /"(?:[^"\\]|\\.)*"/,
@@ -41,7 +41,7 @@
 					pattern: /(^|[^\\])[|!]=*/,
 					lookbehind: true
 				}
-				// See rest below
+				// See org.osmosis.rest below
 			}
 		},
 
@@ -49,7 +49,7 @@
 			pattern: /^(\+{4,})(?:\r?\n|\r)(?:.*(?:\r?\n|\r))*?\1$/m,
 			inside: {
 				'punctuation': /^\++|\++$/
-				// See rest below
+				// See org.osmosis.rest below
 			}
 		},
 		// Literal blocks and listing blocks
@@ -57,7 +57,7 @@
 			pattern: /^(-{4,}|\.{4,})(?:\r?\n|\r)(?:.*(?:\r?\n|\r))*?\1$/m,
 			inside: {
 				'punctuation': /^(?:-+|\.+)|(?:-+|\.+)$/
-				// See rest below
+				// See org.osmosis.rest below
 			}
 		},
 		// Sidebar blocks, quote blocks, example blocks and open blocks
@@ -65,7 +65,7 @@
 			pattern: /^(--|\*{4,}|_{4,}|={4,})(?:\r?\n|\r)(?:.*(?:\r?\n|\r))*?\1$/m,
 			inside: {
 				'punctuation': /^(?:-+|\*+|_+|=+)|(?:-+|\*+|_+|=+)$/
-				// See rest below
+				// See org.osmosis.rest below
 			}
 		},
 
@@ -91,7 +91,7 @@
 			alias: 'important',
 			inside: {
 				'punctuation': /^(?:\.|=+)|(?:=+|-+|~+|\^+|\++)$/
-				// See rest below
+				// See org.osmosis.rest below
 			}
 		},
 		'attribute-entry': {

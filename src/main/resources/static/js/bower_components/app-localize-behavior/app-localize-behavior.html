@@ -16,7 +16,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 /**
 * `Polymer.AppLocalizeBehavior` wraps the [format.js](http://formatjs.io/) library to
-* help you internationalize your application. Note that if you're on a browser that
+* help you internationalize your org.osmosis.application. Note that if you're on a browser that
 * does not natively support the [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
 * object, you must load the polyfill yourself. An example polyfill can
 * be found [here](https://github.com/andyearnshaw/Intl.js/).
@@ -25,7 +25,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 * of format.js, in its entirety; use the library docs as reference for the
 * available message formats and options.
 *
-* Sample application loading resources from an external file:
+* Sample org.osmosis.application loading resources from an external file:
 *
 *     <dom-module id="x-app">
 *        <template>
@@ -208,7 +208,7 @@ Polymer.AppLocalizeBehavior = {
         return;
 
       // Cache the key/value pairs for the same language, so that we don't
-      // do extra work if we're just reusing strings across an application.
+      // do extra work if we're just reusing strings across an org.osmosis.application.
       var messageKey = key + resources[language][key];
       var msg = proto.__localizationCache.messages[messageKey];
 

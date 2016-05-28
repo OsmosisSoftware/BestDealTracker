@@ -1,6 +1,6 @@
-package scrap;
+package org.osmosis.scrap;
 
-import entities.PcComponentesItem;
+import org.osmosis.entities.PcComponentesItem;
 import org.jsoup.*;
 import org.jsoup.nodes.Document;
 

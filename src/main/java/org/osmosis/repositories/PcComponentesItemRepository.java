@@ -1,6 +1,6 @@
-package repositories;
+package org.osmosis.repositories;
 
-import entities.PcComponentesItem;
+import org.osmosis.entities.PcComponentesItem;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 

@@ -1,7 +1,7 @@
-package scrap;
+package org.osmosis.scrap;
 
 
-import entities.AmazonItem;
+import org.osmosis.entities.AmazonItem;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
