@@ -27,7 +27,6 @@ public class AmazonItem {
             final String link,
             final String amazonItemId
     ) {
-        super();
         this.setPrecio(precio);
         this.setNombre(nombre);
         this.setLink(link);
@@ -104,6 +103,10 @@ public class AmazonItem {
 
     public String getUrl(){
         return this.link;
+    }
+
+    public String getAmazonItemId () {
+        return  this.amazonItemId;
     }
 
 }

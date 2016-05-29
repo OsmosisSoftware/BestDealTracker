@@ -21,7 +21,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.3.5.RELEASE</version>
     </parent>
-    
+
     <dependencies>
         <!-- JSOUP -->
         <!-- jsoup HTML parser library @ http://jsoup.org/ -->
@@ -110,5 +110,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
