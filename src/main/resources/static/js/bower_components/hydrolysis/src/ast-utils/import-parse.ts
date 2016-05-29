@@ -42,7 +42,7 @@ var isJSScriptNode = p.AND(
   p.OR(
     p.NOT(p.hasAttr('type')),
     p.hasAttrValue('type', 'text/javascript'),
-    p.hasAttrValue('type', 'application/javascript')
+    p.hasAttrValue('type', 'org.osmosis.application/javascript')
   )
 );
 

@@ -20,7 +20,7 @@ _[Demo and API Docs](https://elements.polymer-project.org/elements/iron-signals)
 `iron-signals` provides basic publish-subscribe functionality.
 
 Note: avoid using `iron-signals` whenever you can use
-a controller (parent element) to mediate communication
+a org.osmosis.rest (parent element) to mediate communication
 instead.
 
 To send a signal, fire a custom event of type `iron-signal`, with

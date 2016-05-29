@@ -25,7 +25,7 @@ for a web app.
 In its typical usage, a `app-route` element consumes an object that describes
 some state about the current route, via the `route` property. It then parses
 that state using the `pattern` property, and produces two artifacts: some `data`
-related to the `route`, and a `tail` that contains the rest of the `route` that
+related to the `route`, and a `tail` that contains the org.osmosis.rest of the `route` that
 did not match.
 
 Here is a basic example, when used with `app-location`:

@@ -7,7 +7,7 @@ Prism.languages.scss = Prism.languages.extend('css', {
 		pattern: /@[\w-]+(?:\([^()]+\)|[^(])*?(?=\s+[{;])/,
 		inside: {
 			'rule': /@[\w-]+/
-			// See rest below
+			// See org.osmosis.rest below
 		}
 	},
 	// url, compassified

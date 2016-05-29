@@ -12,7 +12,7 @@ Prism.languages.nix = {
 						pattern: /^\$(?=\{)/,
 						alias: 'variable'
 					}
-					// See rest below
+					// See org.osmosis.rest below
 				}
 			}
 		}

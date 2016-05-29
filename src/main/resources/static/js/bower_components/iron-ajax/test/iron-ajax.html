@@ -747,7 +747,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           ajax.contentType = 'application/json';
           return ajax.generateRequest().completes.then(function() {
             expect(ajax.lastResponse.headers['Content-Type']).to.match(
-                /^application\/json(;.*)?$/);
+                /^org.osmosis.application\/json(;.*)?$/);
             expect(ajax.lastResponse.json.a).to.be.equal('foo');
             expect(ajax.lastResponse.json.b).to.be.equal('bar');
           });
@@ -759,7 +759,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           ajax.body = 'a=foo&b=bar';
           return ajax.generateRequest().completes.then(function() {
             expect(ajax.lastResponse.headers['Content-Type']).to.match(
-                /^application\/x-www-form-urlencoded(;.*)?$/);
+                /^org.osmosis.application\/x-www-form-urlencoded(;.*)?$/);
 
             expect(ajax.lastResponse.form.a).to.be.equal('foo');
             expect(ajax.lastResponse.form.b).to.be.equal('bar');
@@ -778,7 +778,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           ajax.body = xmlDoc;
           return ajax.generateRequest().completes.then(function() {
             expect(ajax.lastResponse.headers['Content-Type']).to.match(
-                /^application\/xml(;.*)?$/);
+                /^org.osmosis.application\/xml(;.*)?$/);
             expect(ajax.lastResponse.data).to.match(
                 /<foo\s*><bar\s+name="baz"\s*\/><\/foo\s*>/);
           });

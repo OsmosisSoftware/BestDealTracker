@@ -8,7 +8,7 @@ Prism.languages.mel = {
 				pattern: /^`|`$/,
 				alias: 'punctuation'
 			}
-			// See rest below
+			// See org.osmosis.rest below
 		}
 	},
 	'string': /"(?:\\.|[^\\"\r\n])*"/,

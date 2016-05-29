@@ -37,7 +37,7 @@ Prism.languages.twig = {
 		}
 	},
 
-	// The rest can be parsed as HTML
+	// The org.osmosis.rest can be parsed as HTML
 	'other': {
 		// We want non-blank matches
 		pattern: /\S(?:[\s\S]*\S)?/,

@@ -11,7 +11,7 @@ Prism.languages.haxe = Prism.languages.extend('clike', {
 						pattern: /^\$\w*/,
 						alias: 'variable'
 					}
-					// See rest below
+					// See org.osmosis.rest below
 				}
 			}
 		}

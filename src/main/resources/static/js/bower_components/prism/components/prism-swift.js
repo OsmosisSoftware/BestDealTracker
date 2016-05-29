@@ -11,7 +11,7 @@ Prism.languages.swift = Prism.languages.extend('clike', {
 						pattern: /^\\\(|\)$/,
 						alias: 'variable'
 					}
-					// See rest below
+					// See org.osmosis.rest below
 				}
 			}
 		}

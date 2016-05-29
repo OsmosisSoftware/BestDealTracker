@@ -563,7 +563,7 @@ Prism.languages.css = {
 		pattern: /@[\w-]+?.*?(;|(?=\s*\{))/i,
 		inside: {
 			'rule': /@[\w-]+/
-			// See rest below
+			// See org.osmosis.rest below
 		}
 	},
 	'url': /url\((?:(["'])(\\(?:\r\n|[\w\W])|(?!\1)[^\\\r\n])*\1|.*?)\)/i,

@@ -9,7 +9,7 @@
 
 	Prism.languages.jade = {
 
-		// Multiline stuff should appear before the rest
+		// Multiline stuff should appear before the org.osmosis.rest
 
 		// This handles both single-line and multi-line comments
 		'comment': {
