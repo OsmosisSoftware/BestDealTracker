@@ -40,39 +40,6 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <!-- JACOCO -->
-        <!-- http://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
-        <dependency>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.7.6.201602180812</version>
-        </dependency>
-        <!-- JQUERY -->
-        <!-- http://mvnrepository.com/artifact/org.webjars/jquery -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>jquery</artifactId>
-            <version>2.2.4</version>
-        </dependency>
-        <!-- POLYMER -->
-        <!-- http://mvnrepository.com/artifact/org.webjars.bower/github-com-Polymer-polymer -->
-        <dependency>
-            <groupId>org.webjars.bower</groupId>
-            <artifactId>github-com-Polymer-polymer</artifactId>
-            <version>1.4.0</version>
-        </dependency>
-        <!-- SPRING FRAMEWORK -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-
-        <!-- http://mvnrepository.com/artifact/org.webjars/angularjs -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>angularjs</artifactId>
-            <version>2.0.0-alpha.22</version>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -92,13 +59,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
-
-        <!-- http://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>3.2.2</version>
         </dependency>
 
     </dependencies>
