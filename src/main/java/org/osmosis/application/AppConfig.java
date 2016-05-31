@@ -19,7 +19,6 @@ import java.net.UnknownHostException;
         "org.osmosis.rest",
         "org.osmosis.repositories",
         "org.osmosis.entities",
-        "org.osmosis.mongodb"
 })
 @EnableMongoRepositories(basePackages = {"repository"})
 @EnableAutoConfiguration
