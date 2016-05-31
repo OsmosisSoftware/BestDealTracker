@@ -26,8 +26,6 @@ public class AmazonItemRestController {
 
     @RequestMapping(method = RequestMethod.GET)
     public List<AmazonItem> list(){
-        this.repository.save(new AmazonItem(220.5, "Mochila", "http://www.amazon.com/algo", "ABCSDEQW"));
-        this.repository.save(new AmazonItem(20.5, "chila", "http://www.amazon.com/algo2", "abc123abc4"));
         return this.repository.findAll();
     }
 
