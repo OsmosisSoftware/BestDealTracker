@@ -16,7 +16,6 @@ public class AmazonItemTest {
     AmazonItem amazonItem = new AmazonItem(precio, nombre, "http://www.google.com", "BbB8756ABC");
 
     assertNotNull(amazonItem);
-    assertEquals(id, amazonItem.getId());
     assertEquals(precio, amazonItem.getPrecio(),  0.001);
     assertEquals(nombre, amazonItem.getNombre());
   }

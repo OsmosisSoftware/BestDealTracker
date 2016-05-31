@@ -25,7 +25,7 @@ import java.net.UnknownHostException;
 public class AppConfig {
 
     public @Bean Mongo mongo() throws Exception {
-        return new MongoClient("localhost");
+        return new MongoClient("localhost", 27017);
     }
 
     public @Bean MongoClientFactoryBean mongoClient() {

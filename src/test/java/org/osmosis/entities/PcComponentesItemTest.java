@@ -18,15 +18,6 @@ public class PcComponentesItemTest {
         assertEquals(nombre, pcComponentesItem.getNombre());
     }
 
-    @Test
-    public void testCreateEmptyPcComponentesItem(){
-        PcComponentesItem pcComponentesItem = new PcComponentesItem();
-
-        assertNotNull(pcComponentesItem);
-        assertEquals(0.0, pcComponentesItem.getPrecio(), 0.001);
-        assertEquals("", pcComponentesItem.getNombre());
-    }
-
 
     @Test
     public void testSetPrecio() {
