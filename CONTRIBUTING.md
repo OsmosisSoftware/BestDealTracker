@@ -12,3 +12,4 @@
  * `sudo apt-get update`
  * `sudo apt-get install oracle-java8-installer`
 5. Para ejecutar el servidor es recomendable hacer un clean para que siempre se refresquen las páginas html al montar el servidor, el comando sería `mvn clean spring-boot:run`
+6. Instalar mongodb y ejecutar el servicio `sudo apt-get install mongodb` y `sudo service mongodb` start ooo [seguir estos pasos](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) 
