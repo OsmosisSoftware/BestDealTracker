@@ -22,7 +22,7 @@ import java.net.UnknownHostException;
 })
 @EnableMongoRepositories(basePackages = {"repository"})
 @EnableAutoConfiguration
-public class AppConfig {
+class AppConfig {
 
     public @Bean Mongo mongo() throws Exception {
         return new MongoClient("localhost", 27017);
