@@ -29,13 +29,10 @@ target/
 spring-*/src/main/java/META-INF/MANIFEST.MF
 
 # IDEA artifacts and output dirs
-*.iml
 *.idea
 *.ipr
 *.iws
-.idea/
 out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
-BestDealTracker.iml

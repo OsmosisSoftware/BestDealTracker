@@ -26,7 +26,7 @@ import java.util.List;
         "org.osmosis.entities"
 })
 @EnableMongoRepositories(basePackages = {"org.osmosis.repositories"})
-@RequestMapping("/amazonitems")
+@RequestMapping("/rest/amazonitems")
 public class AmazonItemRestController {
 
     @Autowired
@@ -38,7 +38,7 @@ public class AmazonItemRestController {
     public Collection<AmazonItem> list(
             @PathParam("from") String from,
             @PathParam("to") String to
-            ){
+    ) {
         if( from == null || to == null) {
             logger.info("From or To are NULL");
             return this.repository.findAll();
@@ -57,7 +57,7 @@ public class AmazonItemRestController {
 
     @RequestMapping(method = RequestMethod.GET, path = "/{amazonId}")
     public AmazonItem getByamazonId(
-        @PathVariable String amazonId
+            @PathVariable String amazonId
     ) {
         return this.repository.findByAmazonItemId(amazonId);
     }
