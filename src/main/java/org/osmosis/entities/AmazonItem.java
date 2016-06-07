@@ -1,8 +1,10 @@
 package org.osmosis.entities;
 
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.util.List;
 
 @Document
 public class AmazonItem {
@@ -10,6 +12,9 @@ public class AmazonItem {
     @Id
     @GeneratedValue
     private String id;
+
+    @DBRef
+    private List<User> myUsers;
 
     private boolean isIdSet;
     private double precio;
@@ -33,6 +38,19 @@ public class AmazonItem {
         this.setAmazonItemId(amazonItemId);
     }
 
+    public AmazonItem(
+            final double precio,
+            final String nombre,
+            final String link,
+            final String amazonItemId,
+            final List<User> users
+    ) {
+        this.setPrecio(precio);
+        this.setNombre(nombre);
+        this.setLink(link);
+        this.setAmazonItemId(amazonItemId);
+        this.setUsers(users);
+    }
 
     public void setAmazonItemId(String amazonItemId) {
         if (amazonItemId.equals("")) throw new IllegalArgumentException("amazonId vacío");
@@ -109,4 +127,9 @@ public class AmazonItem {
         return  this.amazonItemId;
     }
 
+    public void setUsers(List<User> users) {
+        if(users == null || users.isEmpty()) throw new IllegalArgumentException("Lista de usuarios vacía");
+
+        this.myUsers = users;
+    }
 }
